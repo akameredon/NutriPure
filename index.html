@@ -92,7 +92,7 @@
                     <li><strong>Safety-Focused Formula:</strong> Our recipe uses well-established, food-grade ingredients in precise, tested amounts, developed with your safety as the top priority.</li>
                     <li><strong>Designed for Owerri:</strong> Developed right here, keeping our local water context and common nutritional needs in mind.</li>
                     <li><strong>Affordable & Fresh:</strong> By producing only when you order ('on-demand'), we keep NutriPure affordable and ensure you receive a freshly made product, avoiding long storage times.</li>
-                    <li><strong>Transparency:</strong> Our formula adheres to safety guidelines. We are preparing documentation for NAFDAC review to ensure full compliance. *(Adjust this sentence based on actual NAFDAC status)*</li>
+                    <li><strong>Transparency:</strong> Our formula adheres to safety guidelines. </li>
                 </ul>
             </div>
         </section>
@@ -120,15 +120,21 @@
                 <h2>Contact & Order Inquiries</h2>
                 <p>Get in touch to place your order or ask any questions. We recommend using WhatsApp for the fastest response.</p>
                 <ul>
-                    <li><strong>Phone / WhatsApp:</strong> <a href="tel:+234XXXXXXXXXX"><strong>+234 706 815 5092</strong></a></li>
-                    <li><strong>Email:</strong> <a href="mailto:info@nutripure.example.com"><strong>droagrict@gmail.com</strong></a></li>
+                    <li><strong>Phone / WhatsApp:</strong> <a href="tel:+2347068155092"><strong>+234 706 815 5092</strong></a></li>
+                    <li><strong>Email:</strong> <a href="mailto:droagrict@gmail.com"><strong>droagrict@gmail.com</strong></a></li>
                     <li><strong>Inquiry Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM</li>
                 </ul>
                 <p><em>Please note: We produce by request only. Contact us to arrange your order.</em></p>
 
                 <!-- Keep the form commented out unless you plan to configure Netlify/Formspree -->
                 
-                <form name="contact" method="POST" data-netlify="true"> ... </form>
+                <form name="contact" method="POST" data-netlify="true">
+                  <!-- Input fields go here -->
+                  <input type="text" name="name" required />
+                  <input type="email" name="email" required />
+                  <textarea name="message" required></textarea>
+                  <button type="submit">Send Inquiry</button>
+              </form>
                 
             </div>
         </section>
